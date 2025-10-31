@@ -232,7 +232,6 @@ While CoT prompting showed modest quantitative improvements, it provided signifi
 - **Dataset**: DAIR.AI Emotion Dataset ([Saravia et al., 2018](https://www.aclweb.org/anthology/D18-1404))
 - **Models**: Mistral AI, Alibaba Cloud (Qwen), Google Research (FLAN-T5)
 - **Frameworks**: Ollama, HuggingFace Transformers
-- **Inspiration**: Chain-of-Thought Prompting ([Wei et al., 2023](https://arxiv.org/abs/2201.11903))
 
 ## References
 
