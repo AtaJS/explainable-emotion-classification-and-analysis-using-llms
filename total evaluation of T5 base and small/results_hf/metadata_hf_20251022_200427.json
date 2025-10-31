@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251022_200427",
+  "sample_size": 500,
+  "models": [
+    "google/flan-t5-small",
+    "google/flan-t5-base"
+  ],
+  "shot_configs": [
+    0,
+    3,
+    5
+  ],
+  "thresholds": [
+    100,
+    200,
+    500
+  ],
+  "emotion_labels": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "csv_file": "results_hf/evaluation_hf_20251022_200427.csv",
+  "predictions_file": "results_hf/predictions_hf_20251022_200427.pkl",
+  "framework": "huggingface",
+  "model_type": "flan-t5"
+}

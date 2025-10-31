@@ -1,0 +1,28 @@
+{
+  "timestamp": "20251022_160743",
+  "sample_size": 500,
+  "models": [
+    "mistral:7b",
+    "qwen2.5:7b"
+  ],
+  "shot_configs": [
+    0,
+    3,
+    5
+  ],
+  "thresholds": [
+    100,
+    200,
+    500
+  ],
+  "emotion_labels": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "csv_file": "results/evaluation_20251022_160743.csv",
+  "predictions_file": "results/predictions_20251022_160743.pkl"
+}
